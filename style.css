@@ -91,3 +91,32 @@ p {
 }
 
 /* End of the typography */
+body {
+    background-color: var(--background-color-light);
+    display: grid;
+    grid-template-rows: 180px auto 180px;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background: var(--background-color-light);
+}
+
+main {
+    width: 100%;
+    background: var(--background-color-light);
+    background-image: linear-gradient(var(--bg-tint-color-light)), url('./images/background/background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+footer {
+    width: 100%;
+    background: var(--footer-bg-light);
+}
