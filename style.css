@@ -1,0 +1,93 @@
+/* Simple CSS Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 24px;
+}
+
+/* End of reset */
+
+/* Setting variables */
+:root {
+    --text-color-light: #0a3641;
+    --background-color-light: #fffded;
+    --main-cta: #f72c25;
+    --secondary-cta: #ffb17a;
+    --footer-bg-light: #fce762;
+    --button-padding: 10px 20px;
+    --font-header: "Barlow Condensed", sans-serif;
+    --font-header-weight: 600;
+    --font-header-style: normal;
+    --font-paragraph: "Source Sans 3", sans-serif;
+    --font-paragraph-weight: 400;
+    --font-paragraph-style: normal;
+    --bg-tint-color-light: #fffdeda7;
+}
+
+/* Defining basics for typography */
+h1 {
+    font-size: 3.05rem;
+    font-family: var(--font-header);
+    font-weight: var(--font-header-weight);
+    font-style: var(--font-header-style);
+    color: var(--text-color-light);
+}
+
+h2 {
+    font-size: 2.44rem;
+    font-family: var(--font-header);
+    font-weight: var(--font-header-weight);
+    font-style: var(--font-header-style);
+    color: var(--text-color-light);
+}
+
+h3 {
+    font-size: 1.95rem;
+    font-family: var(--font-header);
+    font-weight: var(--font-header-weight);
+    font-style: var(--font-header-style);
+    color: var(--text-color-light);
+}
+
+h4 {
+    font-size: 1.56rem;
+    font-family: var(--font-header);
+    font-weight: var(--font-header-weight);
+    font-style: var(--font-header-style);
+    color: var(--text-color-light);
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-family: var(--font-header);
+    font-weight: var(--font-header-weight);
+    font-style: var(--font-header-style);
+    color: var(--text-color-light);
+}
+
+h6 {
+    font-size: 0.8rem;
+    font-family: var(--font-header);
+    font-weight: var(--font-header-weight);
+    font-style: var(--font-header-style);
+    color: var(--text-color-light);
+}
+
+p {
+    font-size: 1rem;
+    font-family: var(--font-paragraph);
+    font-weight: var(--font-paragraph-weight);
+    font-style: var(--font-paragraph-style);
+    color: var(--text-color-light);
+}
+
+/* End of the typography */
